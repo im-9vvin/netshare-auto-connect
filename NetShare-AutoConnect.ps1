@@ -14,7 +14,7 @@ param(
 # === Configuration ===
 $targetSSID = $WifiSSID
 $vpnName = $VpnName
-$checkInterval = 30  # Check interval in seconds
+$checkInterval = 3  # Check interval in seconds
 $logFile = "$PSScriptRoot\VPN-AutoConnect-$($VpnName).log"
 
 # === Function Definitions ===
